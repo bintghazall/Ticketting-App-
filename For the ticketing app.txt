@@ -1,0 +1,35 @@
+For the ticketing app
+Landing page
+
+1. Header(user info, if logged in, cart)
+2. Navbar
+3. Backend image with texts concerning website
+4.Current event with countdown and a get ticket button
+5. Previous events, 3 events maximum and and link to view more under them
+6. Events completed, users feedback, find out more
+7. Footer
+
+
+.wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    right: -25%;
+    top: 20px;
+  }
+  
+.wave:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 300px;
+    background-color:var(--primary-color);
+    left: -25%;
+    top: -24px;
+  }
